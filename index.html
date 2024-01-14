@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./images/clear.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="searchBox">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="Enter Your Location/City">
+            <button class="bx bx-search-alt" ></button>
+        </div>
+
+        <p class="hideCity">Hide City</p>
+
+        <div class="weatherBox">
+            <div class="box">
+                <div class="info">
+                    <div class="weather">
+                        <img src="./images/cloud.png" alt="">
+                        <p class="temp">0<span></span>°C</p>
+                        <p class="des">Borken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weatherDetails">
+            <div class="humidity">
+                <i class='bx bx-water' ></i>
+                <div class="text">
+                    <div class="humInfo">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="Wind">
+                <i class='bx bx-wind' ></i>
+                <div class="text">
+                    <div class="WindInfo">
+                        <span>0Km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="notFound">
+            <div class="box">
+                <img src="./images/pngwing.com.png" alt="">
+                <p>Oops! Location not found!</p>
+            </div>
+        </div>
+    </div>
+    <p class="sumit">Made with ❤️ by <a href="https://www.linkedin.com/in/hy-sumit/" target="_blank" rel="noreferrer noopener">Sumit🥂</a></p>
+</body>
+
+<script src="./src/script.js"></script>
+
+</html>
